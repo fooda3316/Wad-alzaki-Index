@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/persons_list"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent"
+           >
+        </ListView>
+        <LinearLayout
+            android:id="@+id/alphabetLayout"
+            android:layout_width="0dp"
+            android:layout_weight=".7"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="ا"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ب"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ت"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ث"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ج"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ح"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="خ"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="د"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ذ"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ر"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ز"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="س"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ش"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ص"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ض"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ط"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ظ"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ع"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="غ"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ف"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ق"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ك"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:text="ل"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="م"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ن"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ه"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="و"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="ي"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="#"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        app:rippleColor="@color/colorAccent" />
+    <TextView
+        android:id="@+id/current"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</FrameLayout>

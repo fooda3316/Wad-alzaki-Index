@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="call_log_start_margin">8dp</dimen>
+    <dimen name="call_log_outer_margin">8dp</dimen>
+    <dimen name="call_log_vertical_padding">12dp</dimen>
+    <!--    search view dimens-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="info_text_size">30sp</dimen>
+    <dimen name="call_number">28sp</dimen>
+    <dimen name="call_log_name">15sp</dimen>
+
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="title_heigh_2">100dp</dimen>
+    <dimen name="activity_margin">15dp</dimen>
+    <dimen name="title_heigh">50dp</dimen>
+    <dimen name="_100sdp">100dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_7sdp">7dp</dimen>
+    <dimen name="_30sdp">30dp</dimen>
+    <dimen name="_30sp">35sp</dimen>
+    <dimen name="_20sdp">20sp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="reg_high">300dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">205dp</dimen>
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="button_padding_bottom">4.0dip</dimen>
+    <dimen name="button_padding_right">4.0dip</dimen>
+    <dimen name="button_padding_left">4.0dip</dimen>
+    <dimen name="button_padding_top">4.0dip</dimen>
+    <dimen name="_5sdp">18.0dip</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="_15sdp">15dp</dimen>
+    <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="tab_label">18sp</dimen>
+<!--    user info-->
+    <dimen name="contact_photo_size">88dp</dimen>
+    <dimen name="contact_actions_size">48dp</dimen>
+    <dimen name="contact_icons_size">40dp</dimen>
+    <dimen name="dialpad_button_size">60dp</dimen>
+    <dimen name="top_contact_image_height">350dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="bigger_text_size">16sp</dimen>
+    <dimen name="top_shadow_height">100dp</dimen>
+    <dimen name="tiny_margin">2dp</dimen>
+    <dimen name="_4sdp">4dp</dimen>
+    <dimen name="_3sdp">3dp</dimen>
+</resources>

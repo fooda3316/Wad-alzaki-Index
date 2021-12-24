@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/contact_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:id="@+id/contact_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray">
+
+            <ImageView
+                android:id="@+id/contact_photo1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/top_contact_image_height"
+                android:layout_marginBottom="@dimen/normal_margin"
+                tools:src="@drawable/ic_person_vector"
+                android:visibility="gone"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/contact_photo"
+                >
+
+                <ImageView
+                    android:id="@+id/show_person_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/top_contact_image_height"
+                    android:src="@drawable/ic_person1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitXY" />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/top_contact_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/contact_photo_bottom_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/top_shadow_height"
+                android:layout_alignBottom="@+id/contact_photo"
+                android:background="@drawable/gradient_background"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/contact_toggle_favorite"
+                android:layout_width="@dimen/contact_actions_size"
+                android:layout_height="@dimen/contact_actions_size"
+                android:layout_alignStart="@+id/contact_photo"
+                android:layout_alignBottom="@id/contact_photo"
+                android:layout_margin="@dimen/medium_margin"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/tiny_margin"
+                android:src="@drawable/ic_star_off_vector"
+                 />
+
+            <LinearLayout
+                android:id="@+id/contact_actions_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/contact_photo"
+                android:layout_alignBottom="@id/contact_photo"
+                android:gravity="bottom|end"
+                android:paddingEnd="@dimen/medium_margin"
+                android:paddingBottom="@dimen/medium_margin">
+
+                <ImageView
+                    android:id="@+id/contact_send_email"
+                    android:layout_width="@dimen/contact_actions_size"
+                    android:layout_height="@dimen/contact_actions_size"
+                    android:adjustViewBounds="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:paddingStart="@dimen/small_margin"
+                    android:paddingEnd="@dimen/small_margin"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_email_vector" />
+
+                <ImageView
+                    android:id="@+id/contact_start_call"
+                    android:layout_width="@dimen/contact_actions_size"
+                    android:layout_height="@dimen/contact_actions_size"
+
+                    android:layout_marginStart="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:paddingStart="@dimen/small_margin"
+                    android:paddingEnd="@dimen/small_margin"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_phone_vector" />
+
+                <ImageView
+                    android:id="@+id/contact_send_sms"
+                    android:layout_width="@dimen/contact_actions_size"
+                    android:layout_height="@dimen/contact_actions_size"
+                    android:visibility="gone"
+                    android:layout_marginStart="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:paddingStart="@dimen/small_margin"
+                    android:paddingEnd="@dimen/small_margin"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_sms_vector" />
+                <ImageView
+                    android:id="@+id/contact_wats"
+                    android:layout_width="@dimen/contact_actions_size"
+                    android:layout_height="@dimen/contact_actions_size"
+                    android:layout_marginStart="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:paddingStart="@dimen/small_margin"
+                    android:paddingEnd="@dimen/small_margin"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    android:src="@drawable/whts" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/contact_name_image"
+                android:layout_width="@dimen/contact_icons_size"
+                android:layout_height="@dimen/contact_icons_size"
+                android:layout_below="@+id/contact_photo"
+                android:layout_marginStart="@dimen/normal_margin"
+                android:paddingTop="@dimen/medium_margin"
+                android:paddingEnd="@dimen/small_margin"
+                android:paddingBottom="@dimen/small_margin"
+                android:src="@drawable/ic_person_vector" />
+
+            <TextView
+                android:id="@+id/contact_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_photo"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/contact_name_image"
+                android:background="?attr/selectableItemBackground"
+                android:lines="1"
+                android:text="User name"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:paddingStart="@dimen/small_margin"
+                android:paddingTop="@dimen/normal_margin"
+                android:paddingEnd="@dimen/normal_margin"
+                android:paddingBottom="@dimen/normal_margin"
+                android:singleLine="true"
+                android:textSize="@dimen/bigger_text_size"
+                android:tooltipText="John Doe" />
+            <ImageView
+                android:id="@+id/contact_number_image"
+                android:layout_width="@dimen/contact_icons_size"
+                android:layout_height="@dimen/contact_icons_size"
+                android:layout_below="@+id/contact_name_image"
+                android:layout_marginStart="@dimen/normal_margin"
+                android:paddingTop="@dimen/medium_margin"
+                android:paddingEnd="@dimen/small_margin"
+                android:paddingBottom="@dimen/small_margin"
+                android:src="@drawable/ic_phone_vector" />
+            <TextView
+                android:id="@+id/contact_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_name"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/contact_name_image"
+                android:background="?attr/selectableItemBackground"
+                android:lines="1"
+                android:text="0914732277"
+                android:textColor="@color/black"
+
+                android:maxLines="1"
+                android:paddingStart="@dimen/small_margin"
+                android:paddingTop="@dimen/normal_margin"
+                android:paddingEnd="@dimen/normal_margin"
+                android:paddingBottom="@dimen/normal_margin"
+                android:singleLine="true"
+                android:textSize="@dimen/bigger_text_size"
+                android:tooltipText="John Doe" />
+
+
+
+            <ImageView
+                android:id="@+id/contact_emails_image"
+                android:layout_width="@dimen/contact_icons_size"
+                android:layout_height="@dimen/contact_icons_size"
+                android:layout_marginStart="@dimen/normal_margin"
+                android:paddingTop="@dimen/medium_margin"
+
+                android:paddingEnd="@dimen/small_margin"
+                android:paddingBottom="@dimen/small_margin"
+                android:src="@drawable/ic_email_vector"
+                 />
+
+
+            <LinearLayout
+                android:id="@+id/contact_websites_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_number_image"
+                android:background="@color/light_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/contact_icons_size"
+                        android:layout_height="@dimen/contact_icons_size"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/normal_margin"
+                        android:paddingTop="@dimen/medium_margin"
+                        android:paddingEnd="@dimen/small_margin"
+                        android:paddingBottom="@dimen/small_margin"
+                        android:src="@drawable/ic_email_vector" />
+
+                    <TextView
+                        android:id="@+id/contact_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingStart="@dimen/small_margin"
+
+                        android:paddingTop="@dimen/normal_margin"
+                        android:paddingEnd="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:singleLine="true"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/bigger_text_size"
+                        android:tooltipText="John Doe" />
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/contact_icons_size"
+                        android:layout_height="@dimen/contact_icons_size"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/normal_margin"
+                        android:paddingTop="@dimen/medium_margin"
+                        android:paddingEnd="@dimen/small_margin"
+                        android:paddingBottom="@dimen/small_margin"
+                        android:src="@drawable/ic_location" />
+
+                    <TextView
+                        android:id="@+id/contact_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingStart="@dimen/small_margin"
+
+                        android:paddingTop="@dimen/normal_margin"
+                        android:paddingEnd="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:singleLine="true"
+                        android:text="location"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/bigger_text_size"
+                        android:tooltipText="John Doe" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/contact_number_two_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/contact_icons_size"
+                        android:layout_height="@dimen/contact_icons_size"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/normal_margin"
+                        android:paddingTop="@dimen/medium_margin"
+                        android:paddingEnd="@dimen/small_margin"
+                        android:paddingBottom="@dimen/small_margin"
+                        android:src="@drawable/ic_phone_vector" />
+
+                    <TextView
+                        android:id="@+id/contact_number_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingStart="@dimen/small_margin"
+
+                        android:paddingTop="@dimen/normal_margin"
+                        android:paddingEnd="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:singleLine="true"
+                        android:text="number two"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/bigger_text_size"
+                        android:tooltipText="John Doe" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/contact_number_three_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/contact_icons_size"
+                        android:layout_height="@dimen/contact_icons_size"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/normal_margin"
+                        android:paddingTop="@dimen/medium_margin"
+                        android:paddingEnd="@dimen/small_margin"
+                        android:paddingBottom="@dimen/small_margin"
+                        android:src="@drawable/ic_phone_vector" />
+
+                    <TextView
+                        android:id="@+id/contact_number_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingStart="@dimen/small_margin"
+
+                        android:paddingTop="@dimen/normal_margin"
+                        android:paddingEnd="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:singleLine="true"
+                        android:text="number three"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/bigger_text_size"
+                        android:tooltipText="John Doe" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/contact_photo_top_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_shadow_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_background_flipped"
+        android:contentDescription="@null" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/contact_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        app:elevation="0dp">
+        <ImageView
+            android:id="@+id/contact_back"
+            android:layout_width="@dimen/contact_actions_size"
+            android:layout_height="@dimen/contact_actions_size"
+            android:adjustViewBounds="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/small_margin"
+            android:paddingEnd="@dimen/small_margin"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="@string/profile" />
+        </group>
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_themes"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+
+        </group>
+        <group
+            android:id="@+id/nav_communication_group1"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_rating"
+                android:icon="@drawable/ic_rating"
+                android:title="@string/rating" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/about_icon_facebook"
+                android:title="@string/facebook" />
+            <item
+                android:id="@+id/nav_whasapp"
+                android:icon="@drawable/ic_whatsapp"
+                android:title="@string/whatsapp" />
+            <item
+                android:id="@+id/nav_github"
+                android:icon="@drawable/github"
+                android:title="@string/github" />
+            <item
+                android:id="@+id/nav_send_feedback"
+                android:icon="@drawable/ic_send_feedback"
+                android:title="@string/send_feedback" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </group>
+
+
+        <group
+            android:id="@+id/nav_communication_group2"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_more_apps"
+                android:icon="@drawable/ic_more_apps"
+                android:title="@string/more_apps" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about" />
+
+        </group>
+
+
+    </menu>
+
+
+
+
+

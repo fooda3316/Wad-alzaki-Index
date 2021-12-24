@@ -1,0 +1,90 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CallLogCardStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="cardCornerRadius">2dp</item>
+<!--        <item name="cardBackgroundColor">@color/background_dialer_white</item>-->
+    </style>
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_3_1</item>
+        <item name="colorPrimaryDark">@color/color_3_2</item>
+        <item name="textColor">@color/color_3_1</item>
+        <item name="colorAccent">@color/color_3_3</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0B03F8</item>
+        <item name="textColor">@color/color_2_1</item>
+        <item name="colorPrimaryDark">#0B03F8</item>
+        <item name="colorAccent">@color/color_4_3</item>
+    </style>
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_1_1</item>
+        <item name="textColor">@color/color_1_1</item>
+        <item name="colorPrimaryDark">@color/color_1_2</item>
+        <item name="colorAccent">@color/color_1_3</item>
+    </style>
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#64015F</item>
+        <item name="colorPrimaryDark">#9C1882</item>
+        <item name="textColor">#64015F</item>
+        <item name="colorAccent">@color/color_4_3</item>
+    </style>
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_2_1</item>
+        <item name="colorPrimaryDark">@color/color_2_2</item>
+        <item name="textColor">@color/color_2_1</item>
+        <item name="colorAccent">@color/color_2_3</item>
+    </style>
+
+    <style name="AppTheme6" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_pressed</item>
+        <item name="colorPrimaryDark">#03BFFD</item>
+        <item name="textColor">@color/color_2_1</item>
+        <item name="colorAccent">@color/color_2_3</item>
+    </style>
+    <style name="AppTheme7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">#CC1320</item>
+        <item name="colorAccent">@color/color_2_3</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+    <style name="ToolbarSubtitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+</resources>

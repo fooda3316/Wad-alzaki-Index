@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/drawable/circleyellowfil.xml" value="0.33094994892747703" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout-ar-rAI/activity_view_contact.xml" value="0.2972222222222222" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout-ar-rER/list_item_layout.xml" value="0.2212962962962963" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/activity_about.xml" value="0.24814814814814815" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/activity_login.xml" value="0.2972222222222222" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/activity_phone_login.xml" value="0.2972222222222222" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/activity_settings.xml" value="0.2972222222222222" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/activity_view_contact.xml" value="0.2972222222222222" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/fragment_call_layout.xml" value="0.2212962962962963" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/fragment_more_apps.xml" value="0.3171875" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/item_more_apps.xml" value="0.25" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/list_item_layout.xml" value="0.2212962962962963" />
+        <entry key="..\:/FOODA/PART ONE/My Project/WadAlzaki fooda/app/src/main/res/layout/profile_activity.xml" value="0.2935185185185185" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

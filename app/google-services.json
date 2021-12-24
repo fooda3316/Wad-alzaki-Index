@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493947034823",
+    "firebase_url": "https://wadalzaki-312b2-default-rtdb.firebaseio.com",
+    "project_id": "wadalzaki-312b2",
+    "storage_bucket": "wadalzaki-312b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493947034823:android:a4ce44d8aed16cd470b2e2",
+        "android_client_info": {
+          "package_name": "com.fooda.wadalzaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493947034823-b67b4en72s2ur933n0bspt2fcnpk2f27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fooda.wadalzaki",
+            "certificate_hash": "ece48e1a547ddedabee4e10e8eda2e0dd7832d7f"
+          }
+        },
+        {
+          "client_id": "493947034823-rdfgqmugss3jg8o0t2lhoaofik0c8vfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPEMn2ZdEfslSVTsCGznrswWsmytoLJt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493947034823-rdfgqmugss3jg8o0t2lhoaofik0c8vfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

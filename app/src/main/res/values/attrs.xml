@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ds">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="buttonColor" format="color"/>
+        <attr name="tintColor" format="color"/>
+
+    </declare-styleable>
+    <declare-styleable name="AnimatedRecyclerView">
+        <attr name="layoutAnimation" format="reference" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="layoutManagerOrientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="layoutManagerReverse" format="boolean" />
+        <attr name="layoutManagerType" format="integer">
+            <enum name="linear" value="0" />
+            <enum name="grid" value="1" />
+        </attr>
+        <attr name="gridLayoutManagerColumns" format="integer" />
+    </declare-styleable>
+    <attr name="primaryTitleColor" format="color"/>
+    <attr name="primaryDescriptionColor" format="color"/>
+    <attr name="primaryDateColor" format="color"/>
+    <attr name="primaryBackgroundColor" format="color"/>
+    <attr name="primaryCardBackgroundColor" format="color"/>
+    <attr name="primaryChipBackgroundColor" format="color"/>
+    <attr name="primarySearchBackgroundColor" format="color"/>
+
+</resources>
